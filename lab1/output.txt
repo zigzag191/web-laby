@@ -1,0 +1,108 @@
+vboxuser    1589  0.0  0.1  18016 10716 ?        Ss   20:09   0:00 /lib/systemd/systemd --user
+vboxuser    1590  0.0  0.0 170020  6040 ?        S    20:09   0:00 (sd-pam)
+vboxuser    1596  0.0  0.0  39892  6400 ?        S<sl 20:09   0:00 /usr/bin/pipewire
+vboxuser    1597  0.0  0.0  23780  6528 ?        Ssl  20:09   0:00 /usr/bin/pipewire-media-session
+vboxuser    1598  0.0  0.3 1498096 28072 ?       S<sl 20:09   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+vboxuser    1599  0.0  0.1  76252 13824 ?        Ss   20:09   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+vboxuser    1612  0.0  0.1  16048 12032 ?        Ss   20:09   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+vboxuser    1615  0.0  0.0 240964  7936 ?        Ssl  20:09   0:00 /usr/libexec/gvfsd
+vboxuser    1626  0.0  0.0 241236  7580 ?        Sl   20:09   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+vboxuser    1630  0.0  0.0 380888  6528 ?        Sl   20:09   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+vboxuser    1635  0.0  0.0 537224  7168 ?        Ssl  20:09   0:00 /usr/libexec/xdg-document-portal
+vboxuser    1645  0.0  0.0 236472  6400 ?        Ssl  20:09   0:00 /usr/libexec/xdg-permission-store
+vboxuser    1663  0.1  0.4 709720 36608 ?        SNsl 20:09   0:03 /usr/libexec/tracker-miner-fs-3
+vboxuser    1676  0.0  0.0 162708  6144 tty2     Ssl+ 20:09   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+vboxuser    1679  0.0  0.1 223360 15744 tty2     Sl+  20:09   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+vboxuser    1717  0.0  0.0  92228  5632 ?        Ssl  20:09   0:00 /usr/libexec/gnome-session-ctl --monitor
+vboxuser    1730  0.0  0.2 855472 17536 ?        Ssl  20:09   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+vboxuser    1754  0.0  0.0 309620  7552 ?        Sl   20:09   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+vboxuser    1760  5.2  3.7 4447744 306548 ?      Ssl  20:09   2:07 /usr/bin/gnome-shell
+vboxuser    1768  0.0  0.0   8560  4352 ?        S    20:09   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+vboxuser    1779  0.0  0.1 316380 10496 ?        Ssl  20:09   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+vboxuser    1785  0.0  0.1 315524  8192 ?        Ssl  20:09   0:00 /usr/libexec/gvfs-afc-volume-monitor
+vboxuser    1790  0.0  0.0 237872  7040 ?        Ssl  20:09   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+vboxuser    1794  0.0  0.0 236952  6784 ?        Ssl  20:09   0:00 /usr/libexec/gvfs-goa-volume-monitor
+vboxuser    1803  0.0  0.4 578644 40448 ?        Sl   20:09   0:00 /usr/libexec/goa-daemon
+vboxuser    1825  0.0  0.1 412452 15360 ?        Sl   20:09   0:00 /usr/libexec/goa-identity-service
+vboxuser    1833  0.0  0.0 236780  6656 ?        Ssl  20:09   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+vboxuser    1851  0.0  0.2 582896 18304 ?        Sl   20:09   0:00 /usr/libexec/gnome-shell-calendar-server
+vboxuser    1857  0.0  0.3 392588 25600 ?        Ssl  20:09   0:00 /usr/libexec/evolution-source-registry
+vboxuser    1863  0.0  0.0 157064  6016 ?        Ssl  20:09   0:00 /usr/libexec/dconf-service
+vboxuser    1873  0.0  0.3 840788 30976 ?        Ssl  20:09   0:00 /usr/libexec/evolution-calendar-factory
+vboxuser    1874  0.0  0.2 306064 22200 ?        Sl   20:09   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+vboxuser    1882  0.0  0.1 624180 14464 ?        Ssl  20:09   0:00 /usr/libexec/xdg-desktop-portal
+vboxuser    1883  0.0  0.1 315188  9088 ?        Sl   20:09   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+vboxuser    1891  0.0  0.3 662776 28428 ?        Ssl  20:09   0:00 /usr/libexec/xdg-desktop-portal-gnome
+vboxuser    1897  0.0  0.0 162680  7552 ?        Sl   20:09   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+vboxuser    1898  0.0  0.3 2669456 28004 ?       Sl   20:09   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+vboxuser    1918  0.0  0.0   2888  1664 ?        Ss   20:09   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+vboxuser    1919  0.0  0.0 310748  7040 ?        Ssl  20:09   0:00 /usr/libexec/gsd-a11y-settings
+vboxuser    1922  0.0  0.3 451508 25860 ?        Ssl  20:09   0:00 /usr/libexec/gsd-color
+vboxuser    1923  0.0  0.2 375788 16512 ?        Ssl  20:09   0:00 /usr/libexec/gsd-datetime
+vboxuser    1925  0.0  0.1 315936 12388 ?        Sl   20:09   0:00 /usr/bin/ibus-daemon --panel disable
+vboxuser    1926  0.0  0.0 312252  8064 ?        Ssl  20:09   0:00 /usr/libexec/gsd-housekeeping
+vboxuser    1930  0.0  0.2 340908 22148 ?        Ssl  20:09   0:00 /usr/libexec/gsd-keyboard
+vboxuser    1931  0.0  0.3 717176 27268 ?        Ssl  20:09   0:00 /usr/libexec/gsd-media-keys
+vboxuser    1934  0.0  0.3 377148 25988 ?        Ssl  20:09   0:00 /usr/libexec/gsd-power
+vboxuser    1935  0.0  0.1 250172 11520 ?        Ssl  20:09   0:00 /usr/libexec/gsd-print-notifications
+vboxuser    1936  0.0  0.0 458176  6784 ?        Ssl  20:09   0:00 /usr/libexec/gsd-rfkill
+vboxuser    1945  0.0  0.0 236608  6400 ?        Ssl  20:09   0:00 /usr/libexec/gsd-screensaver-proxy
+vboxuser    1955  0.0  0.1 466264 10496 ?        Ssl  20:09   0:00 /usr/libexec/gsd-sharing
+vboxuser    1962  0.0  0.1 386360  8320 ?        Ssl  20:09   0:00 /usr/libexec/gsd-smartcard
+vboxuser    1972  0.0  0.1 319660  9728 ?        Ssl  20:09   0:00 /usr/libexec/gsd-sound
+vboxuser    1973  0.0  0.2 341624 22788 ?        Ssl  20:09   0:00 /usr/libexec/gsd-wacom
+vboxuser    1978  0.0  0.3 672552 28416 ?        Ssl  20:09   0:00 /usr/libexec/evolution-addressbook-factory
+vboxuser    2011  0.0  0.0 163800  7296 ?        Sl   20:09   0:00 /usr/libexec/ibus-memconf
+vboxuser    2012  0.0  0.3 348280 29256 ?        Sl   20:09   0:01 /usr/libexec/ibus-extension-gtk3
+vboxuser    2013  0.0  0.0 232264  7680 ?        Sl   20:09   0:00 /usr/libexec/gsd-disk-utility-notify
+vboxuser    2016  0.0  0.8 753968 66564 ?        Sl   20:09   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+vboxuser    2023  0.0  0.0  20368  1304 ?        S    20:09   0:00 /usr/bin/VBoxClient --clipboard
+vboxuser    2024  0.0  0.0 218556  3992 ?        Sl   20:09   0:00 /usr/bin/VBoxClient --clipboard
+vboxuser    2029  0.0  0.0 237580  7424 ?        Sl   20:09   0:00 /usr/libexec/ibus-portal
+vboxuser    2078  0.0  0.1 342676 15232 ?        Sl   20:09   0:00 /usr/libexec/gsd-printer
+vboxuser    2090  5.1  1.4 317700 116408 ?       S    20:09   2:05 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.WV5HM2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+vboxuser    2114  0.2  1.2 980464 104092 ?       Sl   20:09   0:05 /snap/snap-store/959/usr/bin/snap-store --gapplication-service
+vboxuser    2143  0.0  0.0 163800  7424 ?        Sl   20:09   0:00 /usr/libexec/ibus-engine-simple
+vboxuser    2150  0.0  0.9 545256 79696 ?        Ssl  20:09   0:00 /usr/libexec/gsd-xsettings
+vboxuser    2179  0.0  0.3 2603924 27600 ?       Sl   20:09   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+vboxuser    2229  0.0  0.3 344252 24668 ?        Ssl  20:09   0:00 /usr/libexec/xdg-desktop-portal-gtk
+vboxuser    2286  0.0  0.3 194468 24952 ?        Sl   20:09   0:00 /usr/libexec/ibus-x11
+vboxuser    2309  0.0  0.0  20368  1304 ?        S    20:09   0:00 /usr/bin/VBoxClient --seamless
+vboxuser    2310  0.1  0.0 218656  3096 ?        Sl   20:09   0:03 /usr/bin/VBoxClient --seamless
+vboxuser    2317  0.0  0.0  20368  1280 ?        S    20:09   0:00 /usr/bin/VBoxClient --draganddrop
+vboxuser    2318  0.5  0.0 219172  3072 ?        Sl   20:09   0:12 /usr/bin/VBoxClient --draganddrop
+vboxuser    2325  0.0  0.0  20368  1300 ?        S    20:09   0:00 /usr/bin/VBoxClient --vmsvga-session
+vboxuser    2327  0.0  0.0 152472  2324 ?        Sl   20:09   0:00 /usr/bin/VBoxClient --vmsvga-session
+vboxuser    2351  0.1  0.8 2802712 65256 ?       Sl   20:09   0:04 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1920:987:1:27:0:70:0:0
+vboxuser    2428  0.0  0.0 163328  6528 ?        Ssl  20:09   0:00 /usr/libexec/gvfsd-metadata
+vboxuser    3490  2.1  2.1 1177583548 174856 ?   SLsl 20:10   0:50 /snap/code/146/usr/share/code/code --no-sandbox .
+vboxuser    3500  0.0  0.5 33769736 47104 ?      S    20:10   0:00 /snap/code/146/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+vboxuser    3501  0.0  0.5 33769748 47488 ?      S    20:10   0:00 /snap/code/146/usr/share/code/code --type=zygote --no-sandbox
+vboxuser    3576  0.0  0.0 33576152 3456 ?       Sl   20:10   0:00 /snap/code/146/usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/vboxuser/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=5c07e332-e815-450f-b573-77c6916b65d7&iid=5c07e332-e815-450f-b573-77c6916b65d7&sid=5c07e332-e815-450f-b573-77c6916b65d7 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.84.2 --annotation=lsb-release=Ubuntu 22.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=25.9.2 --initial-client-fd=44 --shared-client-connection
+vboxuser    3645  0.0  0.8 33819332 65612 ?      Sl   20:10   0:01 /snap/code/146/usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=3576 --enable-crash-reporter=da70e1d5-6207-4d8d-bc14-9f37f3d71449,no_channel --user-data-dir=/home/vboxuser/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6626860996934151963,3716480925060131653,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+vboxuser    3669  9.9  2.8 1187893032 233624 ?   Sl   20:10   3:57 /snap/code/146/usr/share/code/code --type=renderer --crashpad-handler-pid=3576 --enable-crash-reporter=da70e1d5-6207-4d8d-bc14-9f37f3d71449,no_channel --user-data-dir=/home/vboxuser/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/snap/code/146/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --first-renderer-process --no-sandbox --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1714064845762809 --launch-time-ticks=162794148 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6626860996934151963,3716480925060131653,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:7474f763-affb-4cb7-ab4c-498c2b7aebf7
+vboxuser    3688  2.8  1.2 33931076 99256 ?      Sl   20:10   1:08 /snap/code/146/usr/share/code/code --type=gpu-process --disable-gpu-sandbox --no-sandbox --crashpad-handler-pid=3576 --enable-crash-reporter=da70e1d5-6207-4d8d-bc14-9f37f3d71449,no_channel --user-data-dir=/home/vboxuser/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=0,i,6626860996934151963,3716480925060131653,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+vboxuser    3710  0.2  1.1 1177357168 89452 ?    Sl   20:10   0:06 /snap/code/146/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=3576 --enable-crash-reporter=da70e1d5-6207-4d8d-bc14-9f37f3d71449,no_channel --user-data-dir=/home/vboxuser/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6626860996934151963,3716480925060131653,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+vboxuser    3711  0.0  1.0 1177374148 82840 ?    Sl   20:10   0:01 /snap/code/146/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=3576 --enable-crash-reporter=da70e1d5-6207-4d8d-bc14-9f37f3d71449,no_channel --user-data-dir=/home/vboxuser/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6626860996934151963,3716480925060131653,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+vboxuser    3722  0.5  1.6 1177358216 137516 ?   Sl   20:10   0:12 /snap/code/146/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=3576 --enable-crash-reporter=da70e1d5-6207-4d8d-bc14-9f37f3d71449,no_channel --user-data-dir=/home/vboxuser/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6626860996934151963,3716480925060131653,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+vboxuser    3801  0.0  0.3 418668 25220 ?        Sl   20:10   0:00 update-notifier
+vboxuser    3937  0.0  0.1 282020 11904 ?        Sl   20:13   0:00 /usr/libexec/gvfsd-http --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+vboxuser    3942  4.0  4.9 3535824 404792 ?      Sl   20:13   1:27 /snap/firefox/2211/usr/lib/firefox/firefox https://github.com/login/oauth/authorize?client_id=01ab8ac9400c4e429b23&redirect_uri=https://vscode.dev/redirect&scope=read:user+repo+user:email+workflow&state=vscode%253A%252F%252Fvscode.github-authentication%252Fdid-authenticate%253Fnonce%253D6811a4ed99189820%2526windowId%253D1
+vboxuser    4725  0.0  0.5 222804 42240 ?        Sl   20:13   0:00 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -parentBuildID 20221216042651 -prefsLen 26037 -prefMapSize 228328 -appDir /snap/firefox/2211/usr/lib/firefox/browser {cd6d0f30-4ab8-49ed-910c-1f405b838197} 3942 true socket
+vboxuser    4794  0.0  0.2 1385648 19244 ?       Sl   20:13   0:00 /usr/bin/snap userd
+vboxuser    4929  0.0  1.1 2438304 89416 ?       Sl   20:13   0:01 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 30803 -prefMapSize 228328 -jsInitLen 246772 -parentBuildID 20221216042651 -appDir /snap/firefox/2211/usr/lib/firefox/browser {d2dfbcae-54ad-4cf7-8fe0-9c6c2049eeec} 3942 true tab
+vboxuser    5043  0.6  2.7 2598268 224972 ?      Sl   20:13   0:14 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 30816 -prefMapSize 228328 -jsInitLen 246772 -parentBuildID 20221216042651 -appDir /snap/firefox/2211/usr/lib/firefox/browser {29be3b62-b9b9-418e-968c-48350d520c75} 3942 true tab
+vboxuser    5045  0.0  0.7 2408620 64292 ?       Sl   20:13   0:00 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 30816 -prefMapSize 228328 -jsInitLen 246772 -parentBuildID 20221216042651 -appDir /snap/firefox/2211/usr/lib/firefox/browser {5a46887d-4685-4d05-a76b-f299ec8ba69c} 3942 true tab
+vboxuser    5083  0.0  0.7 2408620 64196 ?       Sl   20:13   0:00 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 30816 -prefMapSize 228328 -jsInitLen 246772 -parentBuildID 20221216042651 -appDir /snap/firefox/2211/usr/lib/firefox/browser {aa3bad7e-4e1d-419c-8cd3-1d4dfa8b5fe1} 3942 true tab
+vboxuser    5101  0.0  1.3 2435576 106680 ?      Sl   20:13   0:01 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 30816 -prefMapSize 228328 -jsInitLen 246772 -parentBuildID 20221216042651 -appDir /snap/firefox/2211/usr/lib/firefox/browser {077319cd-f178-4752-a790-1f4f93575329} 3942 true tab
+vboxuser    5441  0.0  0.7 2408624 64532 ?       Sl   20:15   0:00 /snap/firefox/2211/usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 31006 -prefMapSize 228328 -jsInitLen 246772 -parentBuildID 20221216042651 -appDir /snap/firefox/2211/usr/lib/firefox/browser {fd119ed3-7276-4d15-99da-790a4d64265e} 3942 true tab
+vboxuser    5486  0.8  1.1 1177369048 92804 ?    Sl   20:16   0:16 /snap/code/146/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=3576 --enable-crash-reporter=da70e1d5-6207-4d8d-bc14-9f37f3d71449,no_channel --user-data-dir=/home/vboxuser/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6626860996934151963,3716480925060131653,262144 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess
+vboxuser    5503  0.0  0.0   8868  5376 pts/0    Ss   20:16   0:00 /usr/bin/bash --init-file /snap/code/146/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+vboxuser    5707  0.0  0.9 1177282540 76952 ?    Sl   20:17   0:00 /snap/code/146/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/146/usr/share/code/resources/app/extensions/markdown-language-features/server/dist/node/workerMain --node-ipc --clientProcessId=3722
+vboxuser    5832  0.0  0.7 892764 59744 ?        Sl   20:20   0:00 /usr/bin/gnome-calendar --gapplication-service
+vboxuser    5837  0.0  0.4 393520 40184 ?        SLl  20:20   0:00 /usr/bin/seahorse --gapplication-service
+vboxuser    5922  0.3  1.9 967352 161048 ?       Sl   20:20   0:05 gnome-control-center
+vboxuser   19854  0.7  0.8 1177282540 73076 ?    Sl   20:49   0:00 /snap/code/146/usr/share/code/code --ms-enable-electron-run-as-node /snap/code/146/usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=3722
+vboxuser   21295  0.0  0.0   7468  3456 pts/0    S+   20:49   0:00 /bin/bash ./lab1.sh output.txt
+vboxuser   21296  0.0  0.0  10000  3456 pts/0    R+   20:49   0:00 ps aux
+vboxuser   21297  0.0  0.0   6572  2560 pts/0    S+   20:49   0:00 grep vboxuser
